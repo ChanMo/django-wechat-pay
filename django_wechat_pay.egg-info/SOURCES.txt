@@ -11,3 +11,4 @@ wechat_pay/__init__.py
 wechat_pay/api.py
 wechat_pay/apps.py
 wechat_pay/tests.py
+wechat_pay/templates/wechat_pay/pay.html
