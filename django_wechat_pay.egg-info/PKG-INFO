@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
 Name: django-wechat-pay
-Version: 0.0.3
-Summary: django wechat pay, add pay template
+Version: 0.0.4
+Summary: django wechat pay, fixed error url
 Home-page: https://github.com/ChanMo/django-wechat-pay/
 Author: ChanMo
 Author-email: chen.orange@aliyun.com

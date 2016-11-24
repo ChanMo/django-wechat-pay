@@ -25,7 +25,7 @@ class Pay(Base):
             'nonce_str': self.get_random(),
         })
         data['xml']['sign'] = self.get_sign(data['xml'])
-        url = 'https://api.mch_weixin.qq.com/pay/unifiedorder'
+        url = 'https://api.mch.weixin.qq.com/pay/unifiedorder'
         message = self.dict_to_xml(data)
         result = self.get_data(url, message, 'string')
         data = dict(xmltodict.parse(result))
@@ -34,7 +34,7 @@ class Pay(Base):
     def get_pay_data(self):
         data = {
             'appId': self.appid,
-            'timeStamp': int(time.time()),
+            'timeStamp': str(int(time.time())),
             'nonceStr': self.get_random(),
             'package': 'prepay_id=%s' % self.prepay_id,
             'signType': 'MD5',
