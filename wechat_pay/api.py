@@ -27,7 +27,7 @@ class Pay(Base):
         data['xml']['sign'] = self.get_sign(data['xml'])
         url = 'https://api.mch_weixin.qq.com/pay/unifiedorder'
         message = self.dict_to_xml(data)
-        result = self.get_data(url, message, False)
+        result = self.get_data(url, message, 'string')
         data = dict(xmltodict.parse(result))
         self.prepay_id = data['xml']['prepay_id']
 

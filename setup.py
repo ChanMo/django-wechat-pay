@@ -10,12 +10,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name = 'django-wechat-pay',
-    version = '0.0.1',
+    version = '0.0.2',
     packages = ['wechat_pay'],
     include_package_data = True,
     install_requires = ['django-wechat-base'],
     license = 'BSD License',
-    description = 'django wechat pay',
+    description = 'django wechat pay, fixed get_data',
     long_description = README,
     url = 'https://github.com/ChanMo/django-wechat-pay/',
     author = 'ChanMo',

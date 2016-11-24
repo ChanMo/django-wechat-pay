@@ -8,9 +8,6 @@ django_wechat_pay.egg-info/dependency_links.txt
 django_wechat_pay.egg-info/requires.txt
 django_wechat_pay.egg-info/top_level.txt
 wechat_pay/__init__.py
-wechat_pay/admin.py
 wechat_pay/api.py
 wechat_pay/apps.py
-wechat_pay/models.py
 wechat_pay/tests.py
-wechat_pay/views.py
