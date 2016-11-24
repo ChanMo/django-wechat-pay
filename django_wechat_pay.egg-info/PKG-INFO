@@ -1,0 +1,67 @@
+Metadata-Version: 1.1
+Name: django-wechat-pay
+Version: 0.0.1
+Summary: django wechat pay
+Home-page: https://github.com/ChanMo/django-wechat-pay/
+Author: ChanMo
+Author-email: chen.orange@aliyun.com
+License: BSD License
+Description: 基于django的微信支付功能模块
+        ============================
+        
+        
+        快速开始:
+        ---------
+        
+        安装django-wechat-pay:
+        
+        .. code-block::
+        
+            pip install django-wechat-pay
+        
+        
+        修改settings.py文件:
+        
+        .. code-block::
+        
+            INSTALLED_APPS = (
+                ...
+                'wechat',
+                'wechat_pay',
+                ...
+            )
+        
+        
+        
+        在settings.py文件底部添加:
+        
+        .. code-block::
+        
+            # wechat config
+            WECHAT = [
+                {
+                    'appid': 'demo',
+                    'appsecret': 'demo',
+                    'token': 'demo',
+                    'mch_id': 'demo',
+                    'key': 'demo',
+                },
+            ]
+        
+        
+        版本更改:
+        ---------
+        - v0.1 第一版
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
