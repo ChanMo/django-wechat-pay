@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
 Name: django-wechat-pay
-Version: 0.0.5
-Summary: django wechat pay, add views, urls
+Version: 0.0.6
+Summary: django wechat pay, fixed view error
 Home-page: https://github.com/ChanMo/django-wechat-pay/
 Author: ChanMo
 Author-email: chen.orange@aliyun.com

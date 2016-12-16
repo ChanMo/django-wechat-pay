@@ -68,7 +68,7 @@ class WxPayNotifyView(View):
         if sign:
             order_id = data['out_trade_no'][10:]
             pay_number = data['transaction_id']
-            result = handle_order(order_id, pay_number)
+            result = self.handle_order(order_id, pay_number)
         else:
             result['return_code'] = 'FAIL'
             result['return_msg'] = 'ERROR'
