@@ -37,6 +37,7 @@
             'token': 'demo',
             'mch_id': 'demo',
             'key': 'demo',
+            'body': 'demo',
         },
     ]
 

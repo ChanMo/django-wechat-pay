@@ -1,3 +1,6 @@
+# vim
+.swp
+
 # python files
 __pycache__
 *.py[cod]
